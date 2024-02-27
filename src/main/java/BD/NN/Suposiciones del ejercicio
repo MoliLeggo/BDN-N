@@ -1,0 +1,12 @@
+
+N-N
+Asignaturas (NombreAsignatura, profesorEncargado, alumnos...)
+Profesor (nombre, dni)
+Alumnos (nombre, dni, idAsignatura...)
+AsignaturaToAlumno( idAsignatura, idAlumno )
+
+1-N
+Game (players)
+Player(nombre, dni, idGame)
+
+Voy a suponer que queremos almacenar asignaturas con X alumnos y 1 solo profesor por asignatura
